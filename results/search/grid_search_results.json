@@ -1,0 +1,614 @@
+[
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.0,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8908333333333334,
+    "final_train_loss": 0.15573742372200106
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.0,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8938333333333334,
+    "final_train_loss": 0.16514761618810808
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.001,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8931666666666667,
+    "final_train_loss": 0.396300559433292
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.001,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.893,
+    "final_train_loss": 0.41359106032190085
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.01,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.874,
+    "final_train_loss": 0.5330802552451459
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.01,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8671666666666666,
+    "final_train_loss": 0.5647774174950698
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.0,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8978333333333334,
+    "final_train_loss": 0.12103026918184136
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.0,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.895,
+    "final_train_loss": 0.1424916398963092
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.001,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8946666666666667,
+    "final_train_loss": 0.5225465544489043
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.001,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.893,
+    "final_train_loss": 0.5528863312268711
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.01,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8743333333333333,
+    "final_train_loss": 0.5320927541544082
+  },
+  {
+    "params": {
+      "lr": 0.01,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.01,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8641666666666666,
+    "final_train_loss": 0.5588931691010981
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.0,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8933333333333333,
+    "final_train_loss": 0.14348774735255265
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.0,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.891,
+    "final_train_loss": 0.14044896673887827
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.001,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8906666666666667,
+    "final_train_loss": 0.33430445123806385
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.001,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8893333333333333,
+    "final_train_loss": 0.3458425394443538
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.01,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.864,
+    "final_train_loss": 0.5918581442979834
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.01,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8505,
+    "final_train_loss": 0.6110430602270284
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.0,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8965,
+    "final_train_loss": 0.1085701302682619
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.0,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.893,
+    "final_train_loss": 0.11137418489973833
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.001,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8925,
+    "final_train_loss": 0.33720623915356523
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.001,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8878333333333334,
+    "final_train_loss": 0.35496959956844837
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.01,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8571666666666666,
+    "final_train_loss": 0.5925457984816412
+  },
+  {
+    "params": {
+      "lr": 0.05,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.01,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8448333333333333,
+    "final_train_loss": 0.6099108350531186
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.0,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8893333333333333,
+    "final_train_loss": 0.1888682942184227
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.0,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8798333333333334,
+    "final_train_loss": 0.2219351872943024
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.001,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8801666666666667,
+    "final_train_loss": 0.4071478878488471
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.001,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8761666666666666,
+    "final_train_loss": 0.40921394025121294
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.01,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.827,
+    "final_train_loss": 0.6592873183302408
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        256,
+        128
+      ],
+      "weight_decay": 0.01,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8306666666666667,
+    "final_train_loss": 0.6618137333997625
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.0,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8895,
+    "final_train_loss": 0.16893296764713328
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.0,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8783333333333333,
+    "final_train_loss": 0.21775903049591594
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.001,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8836666666666667,
+    "final_train_loss": 0.40858518108047603
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.001,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8806666666666667,
+    "final_train_loss": 0.40845626594274537
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.01,
+      "activation": "relu",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8431666666666666,
+    "final_train_loss": 0.6571493273069511
+  },
+  {
+    "params": {
+      "lr": 0.1,
+      "hidden_sizes": [
+        512,
+        256
+      ],
+      "weight_decay": 0.01,
+      "activation": "tanh",
+      "epochs": 15,
+      "batch_size": 128,
+      "lr_decay": 0.97,
+      "momentum": 0.9
+    },
+    "val_acc": 0.8368333333333333,
+    "final_train_loss": 0.6638467766125619
+  }
+]
